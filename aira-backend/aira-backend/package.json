@@ -1,0 +1,18 @@
+{
+  "name": "aira-backend",
+  "version": "1.0.0",
+  "description": "Servidor intermedio para AIRA IA - protege la API Key y sirve la pagina del Centro Educativo Los Pinos",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vladmandic/human": "3.3.5",
+    "@tensorflow/tfjs-backend-wasm": "4.22.0",
+    "jpeg-js": "0.4.4"
+  }
+}
